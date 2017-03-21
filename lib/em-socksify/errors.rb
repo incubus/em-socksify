@@ -37,7 +37,7 @@ module EventMachine
   end
 
   module Connectify
-    class CONNECTError < Exception
+    class CONNECTError < RuntimeError
     end
   end
 end
